@@ -1,0 +1,45 @@
+.my-caption{
+    bottom: 200px;
+    background: rgba(0,0,0,0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.h-200{
+    height: 200px;
+}
+.h-50{
+    height: 50px!important;
+}
+.h-550{
+    height: 550px;
+}
+.h-250{
+    height: 300px;
+}
+.h-165{
+    height: 180px;
+}
+.p-size{
+    font-size: 14px;
+}
+@media screen and (max-width: 700px){
+    .menu-position{
+        position: relative;
+        bottom: 50px;
+        left: 450px;
+    }
+}
+@media screen and (max-width: 600px){
+    .menu-position{
+        position: relative;
+        bottom: 50px;
+        left: 390px;
+    }
+    .right-position{
+        float: none!important;
+        margin-left: 30%;
+    }
+    left-position{
+        margin-left: 13%;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "php-17/php-17",
+  "type": "project",
+  "description": "A simple class project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
