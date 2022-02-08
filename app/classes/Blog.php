@@ -53,7 +53,9 @@ public function getAllBlogs()
        $this->filename='db.txt';
        $this->data = file_get_contents($this->filename);
        $this->array = explode('$',$this->data);
-       echo '<pre>';
+//       echo '<pre>';
+//       print_r($this->array);
+//       exit();
        foreach ($this->array as $key => $value)
        {
           $this->array2 = explode(',',$value);
